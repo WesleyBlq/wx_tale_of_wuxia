@@ -87,9 +87,9 @@
     omit.js "^1.0.0"
     weui "^1.1.2"
 
-"@tarojs/plugin-babel@^1.0.5":
-  version "1.0.6"
-  resolved "http://registry.npm.taobao.org/@tarojs/plugin-babel/download/@tarojs/plugin-babel-1.0.6.tgz#581ddacfa0785285248f5fa0670611727d5180bd"
+"@tarojs/plugin-babel@^1.0.7":
+  version "1.0.7"
+  resolved "http://registry.npm.taobao.org/@tarojs/plugin-babel/download/@tarojs/plugin-babel-1.0.7.tgz#21eec729adf1482d685b7debb48004c53c3bb95c"
   dependencies:
     babel-core "^6.26.0"
 
@@ -128,12 +128,12 @@
     mobile-detect "^1.4.2"
     whatwg-fetch "^2.0.4"
 
-"@tarojs/taro-weapp@^1.0.5":
-  version "1.0.6"
-  resolved "http://registry.npm.taobao.org/@tarojs/taro-weapp/download/@tarojs/taro-weapp-1.0.6.tgz#cf2dfe3f183233dc218707d7e73b10dda920501f"
+"@tarojs/taro-weapp@^1.0.7":
+  version "1.0.7"
+  resolved "http://registry.npm.taobao.org/@tarojs/taro-weapp/download/@tarojs/taro-weapp-1.0.7.tgz#4fd1492169c08bfbcfc7525c2f6a6ad2072f2e0f"
   dependencies:
-    "@tarojs/taro" "1.0.6"
-    "@tarojs/utils" "1.0.6"
+    "@tarojs/taro" "1.0.7"
+    "@tarojs/utils" "1.0.7"
     lodash "^4.17.10"
     prop-types "^15.6.1"
 
@@ -141,9 +141,13 @@
   version "1.0.6"
   resolved "http://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-1.0.6.tgz#37a92c46a68b5c387a237e5ec9e32a1c171ec1fe"
 
-"@tarojs/utils@1.0.6":
-  version "1.0.6"
-  resolved "http://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-1.0.6.tgz#55cc0921bda9b01512b28979a7b83895d458e06a"
+"@tarojs/taro@1.0.7":
+  version "1.0.7"
+  resolved "http://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-1.0.7.tgz#c4800d838fa09b61738dbd77cf658d39319f5551"
+
+"@tarojs/utils@1.0.7":
+  version "1.0.7"
+  resolved "http://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-1.0.7.tgz#ced7cb041bd1b9fe30292017be235e53d1b5d9ae"
 
 "@tarojs/webpack-runner@^1.0.5":
   version "1.0.6"
@@ -1481,7 +1485,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
+classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "http://registry.npm.taobao.org/classnames/download/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
@@ -5722,6 +5726,14 @@ tar@^4:
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
+
+taro-ui@^1.2.3:
+  version "1.2.3"
+  resolved "http://registry.npm.taobao.org/taro-ui/download/taro-ui-1.2.3.tgz#48156a0c85fce719660f65de268015a42d691e22"
+  dependencies:
+    classnames "^2.2.6"
+    lodash "^4.17.10"
+    prop-types "^15.6.2"
 
 text-table@~0.2.0:
   version "0.2.0"
